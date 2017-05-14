@@ -1,4 +1,4 @@
-module Database.PostgreSQL.Simple.Tuple.Maybe where
+module Database.PostgreSQL.Simple.Tuple.Maybe {-# DEPRECATED "Use Data.Tuple.Sequence instead" #-} where
 
 import Data.Maybe (catMaybes, mapMaybe, isJust)
 
